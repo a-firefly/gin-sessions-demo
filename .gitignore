@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Node.js dependencies and build output
+node_modules/
+dist/
+
+# Go binaries and test output
+/backend/gindemo
+/backend/main
+bin/
+*.exe
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# Logs and temporary files
+*.log
+tmp/
+*.swp
+*.swo
+
+# Editor configuration
+.idea/
+.vscode/
