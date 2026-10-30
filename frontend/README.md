@@ -2,17 +2,19 @@
 
 需要 Node.js 18 或更高版本，无需安装第三方依赖。
 
-先在后端目录启动接口：
+完整介绍、两种 Session 模式的启动与观察步骤见[项目 README](../README.md)。
+
+先从项目根目录进入后端并启动接口：
 
 ```sh
-cd ../seesions-backend
+cd backend
 go run .
 ```
 
-另开一个终端启动前端：
+另开一个终端，从项目根目录启动前端：
 
 ```sh
-cd ../sessions-frontend
+cd frontend
 npm run dev
 ```
 
